@@ -1,0 +1,49 @@
+
+nav {
+    display: inline-block;
+    /* background-color: aquamarine; */
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+nav div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 50px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.menuItems {
+    width: 850px;
+    /* background-color: aqua; */
+    vertical-align: middle;
+}
+
+.menuItems p {
+    display: inline-block;
+    margin: 0;
+    padding-right: 25px;
+}
+
+.navButtons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#signIn {
+    border-radius: 3px;
+    border: 0.5px solid black;
+    background-color: transparent;
+}
+
+#tryFree {
+    border-radius: 3px;
+    border: none;
+    background-color: navy;
+    color: white;
+}
