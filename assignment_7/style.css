@@ -1,0 +1,117 @@
+
+body{
+    margin: 0px;
+}
+nav{
+    display: block;
+    text-align: end;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 20px;
+}
+
+p{
+    display:inline;
+    position: relative;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#about{
+    color: blue;
+}
+
+main>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    
+}
+
+main>p{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 0px;
+    
+}
+.mainContent{
+    display: flex;
+    padding: 30px;
+    gap: 100px;
+}
+
+
+.mainContent img{
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.myinfo p{
+    width: 600px;
+    display: inline-block;
+    line-height: 2;
+    font-weight: 500;
+}
+
+
+.stats{
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+}
+.stats div{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+
+
+.likes{
+    display: block;
+}
+
+.stats div h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.stats div h4{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+    text-align: center;
+}
+
+.myinfo button{
+    border: none;
+    padding: 20px 10px 20px 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(19, 19, 172);
+    margin-top: 50px;
+}
+
+#whatsappLogo{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top: 900px;
+    left: 900px;
+    z-index: 7;
+}
