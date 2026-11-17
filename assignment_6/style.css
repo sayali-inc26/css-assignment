@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+}
+
+.topbarSec {
+    width: 100%;
+}
+
+.topbarSec img {
+    height: 70px;
+    width: 120px;
+    display: block;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.topbarSec h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    display: block;
+    justify-self: center;
+
+}
+
+.topbarSec p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 900px;
+    text-align: center;
+    display: block;
+    justify-self: center;
+}
+
+.foodCards{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.card img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.itemTitle {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.itemTitle h3 {
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 150px;
+}
+
+.itemTitle h4 {
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p {
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.card button {
+    width: 87%;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
+
+.card1 {
+    background-color: rgba(255, 0, 0, 0.13);
+}
+
+.card1 button {
+    background-color: rgba(105, 21, 21, 0.851);
+}
+
+.card2{
+    background-color: rgba(137, 43, 226, 0.19);
+}
+
+.card2 button{
+    background-color: blueviolet;
+}
+
+.card3{
+    background-color: rgba(0, 128, 128, 0.19);
+}
+
+.card3 button{
+    background-color: teal;
+}
