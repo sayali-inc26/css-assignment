@@ -100,11 +100,14 @@ main>p{
 
 .myinfo button{
     border: none;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 15px 20px 15px;
     border-radius: 7px;
     color: white;
     background-color: rgb(19, 19, 172);
     margin-top: 50px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #whatsappLogo{
