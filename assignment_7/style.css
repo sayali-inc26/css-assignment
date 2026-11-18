@@ -108,10 +108,10 @@ main>p{
 }
 
 #whatsappLogo{
-    height: 60px;
-    width: 60px;
-    position: fixed;
-    top: 900px;
-    left: 900px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 630px;
+    left: 1400px;
     z-index: 7;
 }
